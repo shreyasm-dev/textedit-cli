@@ -1,6 +1,6 @@
 {
   "name": "textedit-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Succint macOS command to open TextEdit",
   "main": "dist/main.js",
   "bin": {
@@ -14,8 +14,12 @@
     "start": "npm-run-all --parallel build:watch run:watch",
     "prepublish": "npm run build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "textedit",
+    "macos",
+    "cli"
+  ],
+  "author": "shreyasm-dev",
   "license": "MIT",
   "devDependencies": {
     "@types/source-map-support": "^0.5.6",
