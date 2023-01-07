@@ -1,5 +1,5 @@
 {
-  "name": "textedit",
+  "name": "textedit-cli",
   "version": "1.0.0",
   "description": "Succint macOS command to open TextEdit",
   "main": "dist/main.js",
